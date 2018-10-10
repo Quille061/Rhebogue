@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminEnterpriseResources_RecycleBinRetentionLength" xml:space="preserve">
+    <value>Recycle Bin Retention (days)</value>
+  </data>
+  <data name="Button_EnableRSSPermalinks" xml:space="preserve">
+    <value>Enable RSS Permalinks.</value>
+  </data>
+  <data name="Button_EnableThumbnailsInDocListView" xml:space="preserve">
+    <value>Enable thumbnails in document list view.</value>
+  </data>
+  <data name="CapacityPlanningUnits_FTE" xml:space="preserve">
+    <value>FTE</value>
+  </data>
+  <data name="CapacityPlanningUnits_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Error_EntNameBetween1And100chars" xml:space="preserve">
+    <value>Enterprise name must be between 1 and 100 characters.</value>
+  </data>
+  <data name="Error_LoginEmailMustBeValidEmailAddress" xml:space="preserve">
+    <value>Login support email address must be a valid email address.</value>
+  </data>
+  <data name="Error_ValidSuppEmailMustBeLessThan50" xml:space="preserve">
+    <value>A valid support email address must be less than 50 characters</value>
+  </data>
+  <data name="Heading_EditEnterpriseProperties" xml:space="preserve">
+    <value>Edit Enterprise Properties</value>
+  </data>
+  <data name="Label_CapacityPlanningUnits" xml:space="preserve">
+    <value>Capacity Planning Units</value>
+  </data>
+  <data name="Label_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Label_DocumentThumbnails" xml:space="preserve">
+    <value>Document Thumbnails</value>
+  </data>
+  <data name="Label_EnterpriseName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Label_ExportEnterpriseConfiguration" xml:space="preserve">
+    <value>Export Enterprise Configuration</value>
+  </data>
+  <data name="Label_Label" xml:space="preserve">
+    <value>Label:</value>
+  </data>
+  <data name="Label_RangeDescription" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="Label_RSSPermalinks" xml:space="preserve">
+    <value>RSS Permalinks</value>
+  </data>
+  <data name="Label_SupportEmailAddress" xml:space="preserve">
+    <value>Internal Support Email</value>
+  </data>
+  <data name="Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Msg_RssPermalinksAreDisabled" xml:space="preserve">
+    <value>RSS Permalinks are disabled</value>
+  </data>
+  <data name="Msg_RssPermalinksAreEnabled" xml:space="preserve">
+    <value>RSS Permalinks are enabled</value>
+  </data>
+  <data name="Msg_ThumbInDocumentListViewDisabled" xml:space="preserve">
+    <value>Thumbnails in document list view disabled</value>
+  </data>
+  <data name="Msg_ThumbInDocumentListViewEnabled" xml:space="preserve">
+    <value>Thumbnails in document list view enabled</value>
+  </data>
+  <data name="Title_EnterpriseProperties" xml:space="preserve">
+    <value>Enterprise Properties</value>
+  </data>
+  <data name="Warning_CircularReferenceDetected" xml:space="preserve">
+    <value>The calculation result will be unreliable due to a circular reference - the formula includes fields that refer to each other.</value>
+  </data>
+  <data name="Label_NextItemNumber" xml:space="preserve">
+    <value>Next Item Number</value>
+  </data>
+  <data name="Label_OrderCustomFields" xml:space="preserve">
+    <value>Order Custom Fields</value>
+  </data>
+  <data name="Label_SetCustomDisplayField" xml:space="preserve">
+    <value>Set Custom Display Field</value>
+  </data>
+  <data name="MenuItem_NoCustomFieldsDefined" xml:space="preserve">
+    <value>No Custom Fields Defined</value>
+  </data>
+  <data name="Msg_HierarchyRuleCannotBeChanged" xml:space="preserve">
+    <value>There are top level workspaces of this type. Hierarchy rule cannot be changed.</value>
+  </data>
+  <data name="Msg_NameFieldShouldHave100CharactersOrLess" xml:space="preserve">
+    <value>Name field should have 100 characters or less</value>
+  </data>
+  <data name="Msg_NoProjectTypesSelected" xml:space="preserve">
+    <value>You cannot select "This workspace type can be a parent of the following workspace types" without also selecting at least one child workspace type.</value>
+  </data>
+  <data name="Msg_PleaseEnterANameForThisProjectType" xml:space="preserve">
+    <value>Please enter a name for this workspace type.</value>
+  </data>
+  <data name="Msg_PleaseMakeThisProjectTypeATopLevelProject" xml:space="preserve">
+    <value>Please make this workspace type a top level workspace because no other workspace types can have a child of this new type.</value>
+  </data>
+  <data name="Msg_ProjectItemNumberIncrementerValueMustBeNumeric" xml:space="preserve">
+    <value>The 'Workspace Item Number Incrementer Value' field must be a numeric value.</value>
+  </data>
+  <data name="Msg_TheNextItemNumberFieldMustBeANumericValue" xml:space="preserve">
+    <value>The 'Next Item Number' field must be a numeric value.</value>
+  </data>
+  <data name="Msg_TheNextItemNumberMustBeGreaterThanCurrentMax" xml:space="preserve">
+    <value>The 'Next Item Number' field must be greater than {0} to avoid duplicate workspace numbers.</value>
+  </data>
+  <data name="Msg_TheNextItemNumberMustBeLessThanCurrentMin" xml:space="preserve">
+    <value>The 'Next Item Number' field must be less than {0} to avoid duplicate workspace numbers.</value>
+  </data>
+  <data name="Msg_TheIncrementValueWillCauseDuplicates" xml:space="preserve">
+    <value>The 'Workspace Item Number Incrementer Value' field must be greater than zero to avoid duplicate workspace numbers.</value>
+  </data>
+  <data name="Msg_DuplicateWorkspaceItemNumbersPossible" xml:space="preserve">
+    <value>Duplicate Workspace Numbers Possible</value>
+  </data>
+  <data name="Msg_YouAreChangingTheSetCustomDisplayField" xml:space="preserve">
+    <value>You are changing the Set Custom Display Field value. If you continue, this will
+permanently change the names of all existing Workspaces and Requests
+that were created from this Workspace Type. You cannot reverse this change
+See the Online Help for more information about Custom Display Names.
+
+Are you sure you want to do this?
+Click Yes to continue, or No to cancel the change.</value>
+  </data>
+  <data name="Title_CreateProjectType" xml:space="preserve">
+    <value>Create Workspace Type</value>
+  </data>
+  <data name="Title_EditProjectType" xml:space="preserve">
+    <value>Edit Workspace Type</value>
+  </data>
+  <data name="Label_DefaultRoleForProjectCreator" xml:space="preserve">
+    <value>Default Role for Workspace Creator</value>
+  </data>
+  <data name="Label_DefaultRoleForProjectCreator1" xml:space="preserve">
+    <value>Default Role for Workspace Creator</value>
+  </data>
+  <data name="Label_DynamicApplications" xml:space="preserve">
+    <value>Dynamic Applications</value>
+  </data>
+  <data name="Label_EnableExternalBilling" xml:space="preserve">
+    <value>Enable External Billing</value>
+  </data>
+  <data name="Label_ExternalBilling" xml:space="preserve">
+    <value>External Billing</value>
+  </data>
+  <data name="Label_HierarchyRules" xml:space="preserve">
+    <value>Hierarchy Rules</value>
+  </data>
+  <data name="Label_LockApplication" xml:space="preserve">
+    <value>Lock application?</value>
+  </data>
+  <data name="Label_LogTaskHistory" xml:space="preserve">
+    <value>Log Task History</value>
+  </data>
+  <data name="Label_ManualChangesToETCDoNotUpdatePlannedWork" xml:space="preserve">
+    <value>Manual changes to "Estimate
+to Complete (ETC)" do not automatically update Task Planned Work.</value>
+  </data>
+  <data name="Label_ManualChangesToETCUpdatePlannedWork" xml:space="preserve">
+    <value>Manual changes to "Estimate 
+to Complete (ETC)" do automatically update Task Planned Work upon Timesheet approval.</value>
+  </data>
+  <data name="Label_NativeApplications" xml:space="preserve">
+    <value>Native Applications</value>
+  </data>
+  <data name="Label_ProjectHasAStartAndAnEndDate" xml:space="preserve">
+    <value>Workspace has a start and an end date</value>
+  </data>
+  <data name="Label_ProjectIsOngoing" xml:space="preserve">
+    <value>Workspace is ongoing</value>
+  </data>
+  <data name="Label_ProjectItemNumberIncrementerValue" xml:space="preserve">
+    <value>Workspace Item Number Incrementer Value</value>
+  </data>
+  <data name="Label_ProjectItemNumberSeedValue" xml:space="preserve">
+    <value>Workspace Item Number Seed Value</value>
+  </data>
+  <data name="Label_ProjectTypeRolesAreDefined" xml:space="preserve">
+    <value>Workspace Type roles are defined and can be edited once this Workspace Type has been created.</value>
+  </data>
+  <data name="Label_SetProjectTypeApplications" xml:space="preserve">
+    <value>Set Workspace Type Applications</value>
+  </data>
+  <data name="Label_TaskETCAutoUpdate" xml:space="preserve">
+    <value>Task ETC auto-update</value>
+  </data>
+  <data name="Label_TaskHistoryLog" xml:space="preserve">
+    <value>Task History Log</value>
+  </data>
+  <data name="Label_TimeRangeDefinition" xml:space="preserve">
+    <value>Time Range Definition</value>
+  </data>
+  <data name="Label_Timesheets" xml:space="preserve">
+    <value>Timesheets</value>
+  </data>
+  <data name="Label_TrackTimeAtTheProjectLevel" xml:space="preserve">
+    <value>Track Time at the Workspace Level</value>
+  </data>
+  <data name="Msg_DescriptionFieldShouldHave1000CharactersOrLess" xml:space="preserve">
+    <value>Description field should have 1000 characters or less</value>
+  </data>
+  <data name="Msg_HierarchyRules" xml:space="preserve">
+    <value>In the hierarchy rules, there are no workspace types selected which can 
+have this workspace type as a parent. Please select the Workspace types to be the children
+of this workspace type or disable this hierarchy rule.</value>
+  </data>
+  <data name="Title_SetProjectTypeProperties" xml:space="preserve">
+    <value>Set Workspace Type Properties</value>
+  </data>
+  <data name="ColumnHeading_DateAddedToProject" xml:space="preserve">
+    <value>Date Added to Workspace</value>
+  </data>
+  <data name="Heading_ManageProjectResources" xml:space="preserve">
+    <value>Manage Workspace Resources</value>
+  </data>
+  <data name="MenuItem_AllCategories" xml:space="preserve">
+    <value>All Categories</value>
+  </data>
+  <data name="MenuItem_CategorySearch" xml:space="preserve">
+    <value>Category Search</value>
+  </data>
+  <data name="Label_Portfolios_Tab_List" xml:space="preserve">
+    <value>Portfolio Tab List</value>
+  </data>
+  <data name="Label_Portfolio_Tabs" xml:space="preserve">
+    <value>Portfolio Tabs</value>
+  </data>
+  <data name="PageTitle_ManagePortfolios" xml:space="preserve">
+    <value>Manage Portfolios</value>
+  </data>
+  <data name="Label_NotifyUserOfNewProjectMemberships" xml:space="preserve">
+    <value>Notify user of New Workspace Memberships.</value>
+  </data>
+  <data name="Msg_WarningTheUserWillReceiveANotifForEachNewProj" xml:space="preserve">
+    <value>Warning: The user will receive a notification for each selected workspace.</value>
+  </data>
+  <data name="Heading_ManageProjectMemberships" xml:space="preserve">
+    <value>Manage Project Memberships</value>
+  </data>
+  <data name="OnlyTopLevelProjectTypesCanContainPortfolios" xml:space="preserve">
+    <value>In order to associate this workspace type with portfolio tabs, select "This workspace type can be a top-level workspace" in Hierarchy Rules.</value>
+  </data>
+  <data name="Label_NewCustomView" xml:space="preserve">
+    <value>New Custom View</value>
+  </data>
+  <data name="Label_ThisProjectTypeCanBeAParentOfTheFollowingProjectTypes" xml:space="preserve">
+    <value>This workspace type can be a parent of the following workspace types</value>
+  </data>
+  <data name="Label_ThisProjectTypeCanBeATopLevelProject" xml:space="preserve">
+    <value>This workspace type can be a top-level workspace</value>
+  </data>
+  <data name="Label_ThisProjectTypeIsAutomaticallySetAsPossibleChild" xml:space="preserve">
+    <value>Note: This workspace type is automatically set as a possible child of all existing 
+workspace types.  To configure this setting, select the relevant workspace type and select
+whether it can be a parent workspace type of the current workspace type.</value>
+  </data>
+  <data name="Msg_ProjectTypeNameCannotContainSemiColons" xml:space="preserve">
+    <value>Workspace type name cannot contain semicolons (;).</value>
+  </data>
+  <data name="Label_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="MenuItem_ConvertToExternalResource" xml:space="preserve">
+    <value>Convert to External Resource</value>
+  </data>
+  <data name="Msg_ConfirmConvertToExternal" xml:space="preserve">
+    <value>Are you sure you want to convert this User to an External Resource?</value>
+  </data>
+  <data name="Msg_ConfirmRemoveUserFromEnterprise" xml:space="preserve">
+    <value>Removing this user from the enterprise removes all data related to them except for actual work. Their actual work entries will be visible but cannot be edited. Do you want to continue?&lt;br/&gt;
+    &lt;b&gt;Note:&lt;/b&gt; Removing users does not delete any personally identifiable information (PII) from PPM. You can hide PII by editing required fields in user profiles.</value>
+  </data>
+  <data name="Msg_ConfirmRemoveUsers" xml:space="preserve">
+    <value>Removing the selected users from the enterprise removes all data related to them except for actual work. Their actual work entries will be visible but cannot be edited. Do you want to continue?</value>
+  </data>
+  <data name="Msg_CheckingPendingApprovals" xml:space="preserve">
+    <value>Checking pending approvals...</value>
+  </data>
+  <data name="Msg_CheckingResourceManagerAssignments" xml:space="preserve">
+    <value>Checking resource assignments...</value>
+  </data>
+  <data name="Msg_RemovingUsers" xml:space="preserve">
+    <value>Removing user(s)...</value>
+  </data>
+  <data name="Msg_ResourceManagerReassignmentContinue" xml:space="preserve">
+    <value>Do you want to continue removing all other selected users?</value>
+  </data>
+  <data name="Msg_ResourceManagerReassignmentList" xml:space="preserve">
+    <value>The following Resource Manager(s) have assigned resources which must be reassigned before they can be removed from the Enterprise:</value>
+  </data>
+  <data name="Msg_ResourceManagerReassignmentSingleInfo" xml:space="preserve">
+    <value>The Resource Manager cannot be removed from the Enterprise or converted to an External Resource because they have assigned resources. Please reassign all resources and try again.</value>
+  </data>
+  <data name="Msg_RoleReassignmentLackingPermissions" xml:space="preserve">
+    <value>The role of the selected user cannot be changed. The new role lacks permission to manage assigned resources. Please reassign all resources and try again.</value>
+  </data>
+  <data name="Msg_ResourcesAssignedNoTMPermissions" xml:space="preserve">
+    <value>This user has resources assigned,  but does not have the necessary permissions to manage them. Please reassign all resources or change the user's role.</value>
+  </data>
+  <data name="Msg_ResourceManagerReassignmentTitle" xml:space="preserve">
+    <value>Reassign Resources</value>
+  </data>
+  <data name="Error_UnableToImpersonateSelf" xml:space="preserve">
+    <value>User impersonation sessions can only be initiated on other users.</value>
+  </data>
+  <data name="Error_ImpersonatedUserMustBeActive" xml:space="preserve">
+    <value>User impersonation sessions cannot be initiated on external resources or inactive users.</value>
+  </data>
+  <data name="Error_CannotImpersonateTwice" xml:space="preserve">
+    <value>User impersonation sessions cannot be initiated while already in an impersonation session.</value>
+  </data>
+  <data name="Error_NotImpersonatingAnyone" xml:space="preserve">
+    <value>No user is currently being impersonated.</value>
+  </data>
+  <data name="Error_NoLongerAnActiveMemeber" xml:space="preserve">
+    <value>You are no longer an active member of the enterprise.</value>
+  </data>
+  <data name="Msg_RemoveApplicationFromProject" xml:space="preserve">
+    <value>You have chosen to globally remove the following applications from this Workspace Type:
+{0}
+All related application data will be removed from all workspaces of this Workspace Type. This cannot be reversed. Do you wish to continue?</value>
+  </data>
+  <data name="Title_RemoveApplicationFromProject" xml:space="preserve">
+    <value>Removing application</value>
+  </data>
+  <data name="MenuItem_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Label_EnterpriseSettingsNotificationInfo" xml:space="preserve">
+    <value>Customize email notifications by Enterprise Role or send a System Notification.</value>
+  </data>
+  <data name="Label_NoRolesInProfile" xml:space="preserve">
+    <value>No Roles have been created for this User Profile.</value>
+  </data>
+  <data name="Label_AllRoles" xml:space="preserve">
+    <value>All Roles</value>
+  </data>
+  <data name="Label_NoRecipientsSelected" xml:space="preserve">
+    <value>No Recipients Selected</value>
+  </data>
+  <data name="Label_AutoHealthUpdates" xml:space="preserve">
+    <value>Auto Health Updates</value>
+  </data>
+  <data name="Label_BtnSetAutoHealthConditions" xml:space="preserve">
+    <value>Set Auto Health Conditions</value>
+  </data>
+  <data name="Label_DefaultBehavior" xml:space="preserve">
+    <value>Default Behavior</value>
+  </data>
+  <data name="Label_EnableAutoHealthUpdates" xml:space="preserve">
+    <value>Enable Auto Health Updates</value>
+  </data>
+  <data name="Label_EnableDefaultBehavior" xml:space="preserve">
+    <value>If no conditions are met, automatically update Workspace Health to On Plan</value>
+  </data>
+  <data name="Title_AutoHealthSettings" xml:space="preserve">
+    <value>Auto Health Settings</value>
+  </data>
+  <data name="Label_NewRole" xml:space="preserve">
+    <value>New Role</value>
+  </data>
+  <data name="Label_ApplicationAccessStep" xml:space="preserve">
+    <value>Application Access</value>
+  </data>
+  <data name="Info_ApplicationAccessStep" xml:space="preserve">
+    <value>Below are the Applications available to users of this role. Place a checkmark by the Applications you would like to include in this role.</value>
+  </data>
+  <data name="Label_DefaultConfigurationNavTabStep" xml:space="preserve">
+    <value>Default Configuration for Navigation Tabs</value>
+  </data>
+  <data name="Info_DefaultConfigurationNavTabStep" xml:space="preserve">
+    <value>&lt;b&gt;To Show/Hide Tabs:&lt;/b&gt; Select Tabs from either box and move by clicking the Add or Remove buttons between the boxes.&lt;br/&gt;
+    &lt;b&gt;To Order Tabs:&lt;/b&gt; Select Tabs from the Visible Tabs box, and use the Up or Down buttons to order them.</value>
+    <comment>Do not translate anything within &lt; and &gt;</comment>
+  </data>
+  <data name="Label_RolePermissionsStep" xml:space="preserve">
+    <value>Role Permissions</value>
+  </data>
+  <data name="Info_RolePermissionsStep" xml:space="preserve">
+    <value>Below are available permissions for this role. You can customize the permissions by checking or unchecking individual permissions. For a more detailed description of the permission, mouse-over the {0} icon</value>
+    <comment>{0} = icon image</comment>
+  </data>
+  <data name="Label_NativeDynamicAppViewsStep" xml:space="preserve">
+    <value>Views for Native and Dynamic Applications</value>
+  </data>
+  <data name="Info_NativeDynamicAppViewsStep" xml:space="preserve">
+    <value>Below are the Views available for each Application in this Role. You can enable Views and define defaults.</value>
+  </data>
+  <data name="Label_DefaultWorkspaceRolesStep" xml:space="preserve">
+    <value>Default Workspace Roles</value>
+  </data>
+  <data name="Info_DefaultWorkspaceRolesStep" xml:space="preserve">
+    <value>Use the "Default Workspace Role" drop-down menus to assign a default role. To prevent Project Managers from changing the default workspace role, enable the "Lock Role" checkbox.</value>
+  </data>
+  <data name="Label_UserAssignmentStep" xml:space="preserve">
+    <value>User Assignment</value>
+  </data>
+  <data name="Info_UserAssignmentStep" xml:space="preserve">
+    <value>&lt;b&gt;To add new users to this enterprise role:&lt;/b&gt; Select new members from the user directory.&lt;br/&gt;
+    &lt;b&gt;To reassign current members to a different enterprise role:&lt;/b&gt; Select members on the current member list and assign a new role using the "Select New Role" drop-down.</value>
+    <comment>Do not translate anything within &lt; and &gt;</comment>
+  </data>
+  <data name="Label_RoleNameDescriptionStep" xml:space="preserve">
+    <value>Role Name and Description</value>
+  </data>
+  <data name="Info_RoleNameDescriptionStep" xml:space="preserve">
+    <value>Create or modify the Enterprise Role Name, enter an optional description and click "Finish and Save".</value>
+  </data>
+  <data name="Msg_TheEnterpriseRoleHasBeenSuccessfullyCreated" xml:space="preserve">
+    <value>The Enterprise Role has been successfully created.</value>
+  </data>
+  <data name="Msg_TheEnterpriseRoleHasBeenSuccessfullyUpdated" xml:space="preserve">
+    <value>The Enterprise Role has been successfully updated.</value>
+  </data>
+  <data name="Msg_ErrorSavingRole" xml:space="preserve">
+    <value>An error has occurred and the role {0} could not be saved. Please try again.</value>
+  </data>
+  <data name="Label_EnterpriseLogoHeader" xml:space="preserve">
+    <value>Enterprise Logo</value>
+  </data>
+  <data name="Label_EnterpriseLogoUpload" xml:space="preserve">
+    <value>Enterprise Logo Upload</value>
+  </data>
+  <data name="Info_EnterpriseLogoUploadDetail" xml:space="preserve">
+    <value>Upload a logo to customize your Enterprise and email notifications.</value>
+  </data>
+  <data name="Info_EnterpriseLogoUploadDimensions" xml:space="preserve">
+    <value>Large images will be scaled to fit.</value>
+  </data>
+  <data name="Info_EnterpriseLogoUploadFileSize" xml:space="preserve">
+    <value>Maximum file size is 2 MB.</value>
+  </data>
+  <data name="Info_NoEnterpriseLogo" xml:space="preserve">
+    <value>No logo uploaded</value>
+  </data>
+  <data name="Info_EnterpriseLogoUploadSupportedFormats" xml:space="preserve">
+    <value>Supported file types: .png, .gif, and .jpg</value>
+  </data>
+  <data name="Error_EnterpriseLogoUploadUnsupportedFile" xml:space="preserve">
+    <value>File format is unsupported for the logo upload</value>
+  </data>
+  <data name="Error_EnterpriseLogoUploadMustSelect" xml:space="preserve">
+    <value>You must select a logo to upload first</value>
+  </data>
+  <data name="Error_EnterpriseLogoUploadFileSize" xml:space="preserve">
+    <value>Your file is over 2Mb. Please upload a smaller image.</value>
+  </data>
+  <data name="Msg_LockedRoleEnforcedForWorkgroupMember" xml:space="preserve">
+    <value>Some of the users you added to the workgroup have locked default roles. They will not be assigned the workgroup’s default role.</value>
+  </data>
+  <data name="Label_WeekStartsOn" xml:space="preserve">
+    <value>Week Starts On</value>
+    <comment>Label for admin control that sets the first day of the work week</comment>
+  </data>
+  <data name="Msg_DescriptionLengthLimit" xml:space="preserve">
+    <value>The Description cannot be more than 4000 characters</value>
+  </data>
+  <data name="Info_TimesheetPeriodSettingsChangeWarning" xml:space="preserve">
+    <value>If your enterprise has a timesheet integration, changing the Time Period or Time Period Start may cause inconsistencies in timesheet entries.</value>
+  </data>
+  <data name="Info_Caution" xml:space="preserve">
+    <value>CAUTION:</value>
+  </data>
+  <data name="Label_ZeroHourTimesheetApproval" xml:space="preserve">
+    <value>Automatically approve empty timesheet entries</value>
+  </data>
+</root>
